@@ -10,9 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "bootstrap": "^5.3.8",
+    "expree": "^2.1.0",
+    "node": "^26.8.2",
+    "nodemon": "^3.1.14",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "react-icons": "^5.7.0",
+    "react-router-dom": "^7.18.4",
+    "tailwindcss": "^4.3.3",
     "typed.js": "^3.0.0"
   },
   "devDependencies": {
