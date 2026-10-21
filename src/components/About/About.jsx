@@ -64,7 +64,7 @@ export default function About() {
           <p className="about__bio">{profile.bio}</p>
 
           <div className="about__actions">
-            <a className="btn btn--primary" href={profile.resumeUrl} download>
+            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="btn-box">
               Download CV
             </a>
             <a className="btn btn--ghost" href="#contact">
