@@ -1,27 +1,90 @@
-# React + Vite
+# FullStackAnkit: Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ankit Shukla ki personal portfolio website. Isme Home, About, Skills, Services, Projects aur Contact sections hain.
 
-Currently, two official plugins are available:
+**Live Demo:** https://ankitshukla9.github.io/my-portfolio/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive design jo mobile aur desktop dono par chalta hai
+- Typing animation jo Frontend, Backend aur Web Developer roles dikhata hai
+- Fixed navbar jisse har section par smooth scroll hota hai
+- Technical skills ke animated progress bars
+- Professional skills ke circular progress indicators
+- Social media links
+- Resume download
+- Live time display
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Tech Stack
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+- **React** (UI components)
+- **Vite** (development server aur build tool)
+- **CSS** (custom styling, koi CSS framework nahi)
+- **Typed.js** (typing animation)
+- **React Icons** (social aur skill icons)
 
-## Expanding the ESLint configuration
+## Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── assets/          # Images aur background
+├── components/
+│   ├── Header/      # Navbar
+│   ├── Home/        # Hero section
+│   └── Time/        # Time display
+├── sections/
+│   ├── About/       # About section
+│   ├── Skills/      # Technical aur professional skills
+│   ├── Project/     # Projects section
+│   ├── Service/     # Services section
+│   └── Contact/     # Contact section
+├── App.jsx
+├── main.jsx
+└── index.css
 
-echo "# my-portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ankitshukla9/my-portfolio.git
-git push -u origin main
+public/
+└── resume.pdf       # Download CV ke liye resume
+```
+
+## Getting Started
+
+### Requirements
+
+- [Node.js](https://nodejs.org/) (version 18 ya usse upar)
+
+### Local setup
+
+```bash
+git clone https://github.com/ankitshukla9/my-portfolio.git
+cd my-portfolio
+npm install
+npm run dev
+```
+
+Browser mein `http://localhost:5173` kholein.
+
+## Build
+
+```bash
+npm run build
+```
+
+Production files `dist/` folder mein banti hain.
+
+## Deployment
+
+Ye site GitHub Pages par GitHub Actions ke through deploy hoti hai. `main` branch par har push ke baad site apne aap update ho jati hai. Workflow file `.github/workflows/deploy.yml` mein hai.
+
+## Customization
+
+- **Personal details:** `src/sections/About/About.jsx`
+- **Skills aur progress values:** `src/sections/Skills/Skills.jsx`
+- **Hero text aur social links:** `src/components/Home/Home.jsx`
+- **Navbar links:** `src/components/Header/Header.jsx`
+- **Resume:** `public/resume.pdf` ko replace karein
+
+## Contact
+
+- GitHub: [@ankitshukla9](https://github.com/ankitshukla9)
+- Instagram: [@ankitshukla9653](https://www.instagram.com/ankitshukla9653/)
+- LinkedIn: [Ankit Shukla](https://www.linkedin.com/feed/)
