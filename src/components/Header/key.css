@@ -1,70 +1,78 @@
-{/* Slide Right Animation header(Logo) */}
+/* Slide Right Animation header(Logo) */
 @keyframes slideRight {
     0% {
-        
+
         transform: translateX(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
-        
+
     }
 }
-{/* Slide Right Animation menu*/}
+
+/* Slide Right Animation menu*/
 @keyframes slideTop {
     0% {
         transform: translateY(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
     }
 }
 
-{/* Slide left Animation image circle*/}
+/* Slide left Animation image circle*/
 @keyframes slideImg {
     0% {
         transform: translateX(100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
     }
 }
-{/* Slide Right Animation home content*/}
+
+/* Slide Right Animation home content*/
 
 @keyframes slideBottom {
     0% {
         transform: translateX(-100px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(0);
         opacity: 1;
     }
 }
 
-{/* Slide Right Animation button */}
+/* Slide Right Animation button */
 @keyframes slideButton {
     0% {
         transform: translateY(0);
         opacity: 0;
     }
+
     100% {
         transform: translateY(-100);
-        opacity:1;
+        opacity: 1;
     }
 }
 
-{/* Slide Right Animation button-box main */}
+/* Slide Right Animation button-box main */
 @keyframes slideBottomButton {
     0% {
         transform: translateY(100px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(0);
         opacity: 1;
