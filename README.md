@@ -87,4 +87,4 @@ Ye site GitHub Pages par GitHub Actions ke through deploy hoti hai. `main` branc
 
 - GitHub: [@ankitshukla9](https://github.com/ankitshukla9)
 - Instagram: [@ankitshukla9653](https://www.instagram.com/ankitshukla9653/)
-- LinkedIn: [Ankit Shukla](https://www.linkedin.com/feed/)
+- LinkedIn: [ankitshukla9653](https://www.linkedin.com/feed/)
